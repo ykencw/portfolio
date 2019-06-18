@@ -16,7 +16,7 @@
 
 .NavLink:hover {
     background: #121418;
-    border: 1px solid white;
+    border-color: white;
 }
 
 .NavLink .icon {

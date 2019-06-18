@@ -1,0 +1,38 @@
+.Home .item {
+    display: grid;
+    padding: 0% 20%;
+}
+
+.Home .item:nth-child(odd) {
+    justify-content: right;
+}
+
+.Home .item:nth-child(even) {
+    justify-content: left;
+}
+
+.Home a, .Home .GitHub {
+    height: 100px;
+    width: 200px;
+}
+
+
+.Home .GitHub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    background: #0077ff;
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    transition: border-color cubic-bezier(.26,.15,.46,1) 0.35s;
+}
+
+.Home .GitHub:hover {
+    border-color: white;
+}
+
+.Home .GitHub img {
+    height: 50px;
+    width: 50px;
+}

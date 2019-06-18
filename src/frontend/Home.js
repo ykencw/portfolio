@@ -5,7 +5,7 @@ import './Home.css';
 
 class Home extends React.Component {
     render() {
-        return(<div>
+        return(<div className='Home'>
             <TopBar backgroundName='backgroundhome' pageTitle='Home' />
             <div className='Content'>
                 <h1>Home:</h1>
@@ -13,6 +13,16 @@ class Home extends React.Component {
                     This is the home, blah blah home<br/>
                     content content content<br/>
                     <br/>
+                    <div className='container'>
+                        <div className='item'>
+                            <a href='https://github.com/ykencw'>
+                                <div className='GitHub'>
+                                    <div>View work!</div>
+                                    <img src={require(`./common/images/githublogo.png`)} alt={`GitHub icon`} />
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                     <br/>
                     more content<br/>
                     <br/>
