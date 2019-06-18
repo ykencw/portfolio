@@ -12,11 +12,9 @@ class App extends React.Component {
         <div className="App">
           <h1>Hello world!</h1>
           <Switch>
-            <Route exact path='/' render={() => <Redirect to='/portfolio'/>} />
-            <Route exact path='/portfolio' component={Home} />
-            <Route path='/portfolio/not-found' component={NotFound} />
-            <Route path='/portfolio/:path' render={() => <Redirect to='/portfolio/not-found'/>} />
-            <Route path='/:path' render={() => <Redirect to='/portfolio'/>} />
+            <Route exact path='/' component={Home} />
+            <Route path='/not-found' component={NotFound} />
+            <Route path='/:path' render={() => <Redirect to='/not-found'/>} />
           </Switch>
         </div>
     );
