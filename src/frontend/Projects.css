@@ -1,0 +1,27 @@
+.Projects .item {
+    display: grid;
+    padding: 0% 20%;
+}
+
+.Projects .item:nth-child(odd) {
+    justify-content: right;
+}
+
+.Projects .item:nth-child(even) {
+    justify-content: left;
+}
+
+.Projects .Kodflix {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    width: 420px;
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    transition: border-color cubic-bezier(.26,.15,.46,1) 0.35s;
+}
+
+.Projects .Kodflix:hover {
+    border-color: white;
+}

@@ -2,6 +2,8 @@ import React from 'react';
 import { Redirect } from 'react-router-dom';
 import TopBar from './TopBar';
 
+import './Projects.css'
+
 class Projects extends React.Component {
     constructor(props) {
         super(props);
@@ -32,7 +34,7 @@ class Projects extends React.Component {
             return <Redirect to='/AboutMe' />;
         }
 
-        return (<div>
+        return (<div className='Projects'>
             <TopBar backgroundName='backgroundprojects' pageTitle='Projects' />
             <div className='Content'>
                 <h1>Projects:</h1>
@@ -41,6 +43,10 @@ class Projects extends React.Component {
                     <br />
                     <br />
                     <br />
+                    <div className='item'>
+                        <a className='Kodflix' href='https://kodiriyk.herokuapp.com/'>Kodflix: <img width="300px" height="auto" src={require(`./common/images/kodflixpreview.jpg`)} alt={`GitHub icon`} />
+                        </a>
+                    </div>
                     <br />
                     <br />
                     content content content<br/>
