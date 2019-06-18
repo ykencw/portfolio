@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a5e95720.chunk.css",
-    "main.js": "/portfolio/static/js/main.2d6fd15d.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2d6fd15d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e1519eb6.chunk.css",
+    "main.js": "/portfolio/static/js/main.a3c9061d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a3c9061d.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.3c07c30c.chunk.js": "/portfolio/static/js/2.3c07c30c.chunk.js",
-    "static/js/2.3c07c30c.chunk.js.map": "/portfolio/static/js/2.3c07c30c.chunk.js.map",
+    "static/js/2.402fd366.chunk.js": "/portfolio/static/js/2.402fd366.chunk.js",
+    "static/js/2.402fd366.chunk.js.map": "/portfolio/static/js/2.402fd366.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.df69ee8b16593bf2b214a4855e53f4e5.js": "/portfolio/precache-manifest.df69ee8b16593bf2b214a4855e53f4e5.js",
+    "precache-manifest.28cf6f10e498712c970452c8ca5378cc.js": "/portfolio/precache-manifest.28cf6f10e498712c970452c8ca5378cc.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.a5e95720.chunk.css.map": "/portfolio/static/css/main.a5e95720.chunk.css.map",
+    "static/css/main.e1519eb6.chunk.css.map": "/portfolio/static/css/main.e1519eb6.chunk.css.map",
     "static/media/aboutmeicon.svg": "/portfolio/static/media/aboutmeicon.d9fb9546.svg",
     "static/media/backgroundaboutme.jpg": "/portfolio/static/media/backgroundaboutme.b72c4c8e.jpg",
     "static/media/backgroundcontact.jpg": "/portfolio/static/media/backgroundcontact.313d2617.jpg",
@@ -18,6 +18,7 @@
     "static/media/backgroundprojects.jpg": "/portfolio/static/media/backgroundprojects.7459bc3a.jpg",
     "static/media/contacticon.svg": "/portfolio/static/media/contacticon.a613092c.svg",
     "static/media/homeicon.svg": "/portfolio/static/media/homeicon.56c67139.svg",
+    "static/media/kodflixpreview.jpg": "/portfolio/static/media/kodflixpreview.2484a0f4.jpg",
     "static/media/menuicon.svg": "/portfolio/static/media/menuicon.f4747b89.svg",
     "static/media/projectsicon.svg": "/portfolio/static/media/projectsicon.32b05299.svg"
   }
