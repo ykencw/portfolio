@@ -2,23 +2,55 @@
   box-sizing: border-box;
 }
 
-html, body, .App, #root, .showTitles {
+html, body, .App, #root {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   overflow: auto;
 }
 
 html body {
-  background: #2f303f;
+  background: #121418;
   color: white;
   font-family: Verdana, Geneva, sans-serif;
 }
 
 .App {
   text-align: center;
-  display: flex;
+}
+
+.NavigableContent {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  text-align: center;
+  display: grid;
+}
+
+.TopBar {
+  position: absolute;
+  height: 45vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.TopBarOverlay {
+  position: inherit;
+  height: inherit;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), transparent);
+}
+
+.Content {
+  position: absolute;
+  width: 100%;
+  top: 45vh;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 h1 {
-  padding: 50px;
+  padding: 35px;
 }
