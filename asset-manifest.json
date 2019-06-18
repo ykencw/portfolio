@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1c75b1b6.chunk.css",
-    "main.js": "/portfolio/static/js/main.a543904c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a543904c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.002ea136.chunk.css",
+    "main.js": "/portfolio/static/js/main.cfc81bab.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cfc81bab.chunk.js.map",
     "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
     "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
-    "static/js/2.b0980afd.chunk.js": "/portfolio/static/js/2.b0980afd.chunk.js",
-    "static/js/2.b0980afd.chunk.js.map": "/portfolio/static/js/2.b0980afd.chunk.js.map",
+    "static/js/2.fdbdd860.chunk.js": "/portfolio/static/js/2.fdbdd860.chunk.js",
+    "static/js/2.fdbdd860.chunk.js.map": "/portfolio/static/js/2.fdbdd860.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.70df5b925ac6f8142185a56ab503aa59.js": "/portfolio/precache-manifest.70df5b925ac6f8142185a56ab503aa59.js",
+    "precache-manifest.e3c63d398d4ebe69ef70e6d94a6aae17.js": "/portfolio/precache-manifest.e3c63d398d4ebe69ef70e6d94a6aae17.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.1c75b1b6.chunk.css.map": "/portfolio/static/css/main.1c75b1b6.chunk.css.map",
-    "static/media/background.jpg": "/portfolio/static/media/background.ca9ac795.jpg"
+    "static/css/main.002ea136.chunk.css.map": "/portfolio/static/css/main.002ea136.chunk.css.map",
+    "static/media/aboutmeicon.svg": "/portfolio/static/media/aboutmeicon.d9fb9546.svg",
+    "static/media/backgroundhome.jpg": "/portfolio/static/media/backgroundhome.ca9ac795.jpg",
+    "static/media/backgroundprojects.jpg": "/portfolio/static/media/backgroundprojects.7459bc3a.jpg",
+    "static/media/contacticon.svg": "/portfolio/static/media/contacticon.a613092c.svg",
+    "static/media/homeicon.svg": "/portfolio/static/media/homeicon.56c67139.svg",
+    "static/media/menuicon.svg": "/portfolio/static/media/menuicon.f4747b89.svg",
+    "static/media/projectsicon.svg": "/portfolio/static/media/projectsicon.32b05299.svg"
   }
 }
