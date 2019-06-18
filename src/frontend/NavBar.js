@@ -20,7 +20,7 @@ class NavBar extends React.Component {
         window.removeEventListener('scroll', this.handleScroll)
     }
 
-    handleScroll = event => {
+    handleScroll = () => {
         this.updateStickied();
     }
 
