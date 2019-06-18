@@ -7,6 +7,7 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import NotFound from './NotFound';
 import NavBar from './NavBar';
+import SourceLink from './SourceLink';
 
 import './App.css';
 
@@ -25,6 +26,7 @@ class App extends React.Component {
             </Switch>
           </div>
           <NavBar />
+          <SourceLink />
         </div>
     );
   }

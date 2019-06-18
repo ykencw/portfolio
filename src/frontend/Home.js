@@ -1,10 +1,39 @@
 import React from 'react';
+import { Redirect } from 'react-router-dom';
 import TopBar from './TopBar';
 
 import './Home.css';
 
 class Home extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            redirect: false
+        };
+    }
+
+    componentDidMount() {
+        window.scrollTo(0, 0);
+        window.addEventListener('scroll', this.handleScroll)
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll)
+    }
+
+    handleScroll = () => {
+        if ((window.pageYOffset - window.innerHeight) >= document.body.offsetHeight) {
+            this.setState({
+                redirect: true
+            });
+        }
+    }
+
     render() {
+        if (this.state.redirect) {
+            return <Redirect to='/Projects' />;
+        }
+
         return(<div className='Home'>
             <TopBar backgroundName='backgroundhome' pageTitle='Home' />
             <div className='Content'>
@@ -109,6 +138,11 @@ class Home extends React.Component {
                     content content content<br/>
                     content content content<br/>
                     end of content
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                 </div>
             </div>
         </div>);

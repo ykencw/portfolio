@@ -31,7 +31,7 @@ html body {
 
 .TopBar {
   position: absolute;
-  height: 45vh;
+  height: 50vh;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -42,17 +42,17 @@ html body {
   position: inherit;
   height: inherit;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), transparent);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), transparent);
 }
 
 .Content {
   position: absolute;
   width: 100%;
-  top: 45vh;
+  top: 50vh;
   padding-left: 20px;
   padding-right: 20px;
 }
 
 h1 {
-  padding: 35px;
+  padding: 40px;
 }
