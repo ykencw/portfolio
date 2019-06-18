@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
 import Home from './Home';
 import NotFound from './NotFound';
@@ -12,9 +12,11 @@ class App extends React.Component {
         <div className="App">
           <h1>Hello world!</h1>
           <Switch>
-            <Route exact path='/' component={Home} />
-            <Route path='/not-found' component={NotFound} />
-            <Route path='/:path' component={NotFound} />
+            <Route exact path='/' render={() => <Redirect to='/portfolio'/>} />
+            <Route exact path='/portfolio' component={Home} />
+            <Route path='/portfolio/not-found' component={NotFound} />
+            <Route path='/portfolio/:path' render={() => <Redirect to='/portfolio/not-found'/>} />
+            <Route path='/:path' render={() => <Redirect to='/portfolio'/>} />
           </Switch>
         </div>
     );
