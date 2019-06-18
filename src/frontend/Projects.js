@@ -47,6 +47,14 @@ class Projects extends React.Component {
                         <a className='Kodflix' href='https://kodiriyk.herokuapp.com/'>Kodflix: <img width="300px" height="auto" src={require(`./common/images/kodflixpreview.jpg`)} alt={`GitHub icon`} />
                         </a>
                     </div>
+                    <div className='item'>
+                        <a className='Kodflix' href='https://kodiriyk.herokuapp.com/'>Placeholder: <img width="300px" height="auto" src={require(`./common/images/kodflixpreview.jpg`)} alt={`GitHub icon`} />
+                        </a>
+                    </div>
+                    <div className='item'>
+                        <a className='Kodflix' href='https://kodiriyk.herokuapp.com/'>Placeholder: <img width="300px" height="auto" src={require(`./common/images/kodflixpreview.jpg`)} alt={`GitHub icon`} />
+                        </a>
+                    </div>
                     <br />
                     <br />
                     content content content<br/>

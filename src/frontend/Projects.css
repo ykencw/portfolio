@@ -18,6 +18,7 @@
     justify-content: center;
     column-gap: 20px;
     width: 420px;
+    padding: 20px;
     border: 1px solid rgba(255, 255, 255, 0.219);
     transition: border-color cubic-bezier(.26,.15,.46,1) 0.35s;
 }
