@@ -4,7 +4,7 @@ import TopBar from './TopBar';
 import './Projects.css'
 
 class Projects extends React.Component {render() {
-        return (<div className='Projects'>
+        return (<div id='Projects'>
             <TopBar backgroundName='backgroundprojects' pageTitle='Projects' />
             <div className='Content'>
                 <h1>Projects:</h1>

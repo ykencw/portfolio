@@ -1,23 +1,23 @@
-.Home .item {
+#Home .item {
     display: grid;
     padding: 0% 20%;
 }
 
-.Home .item:nth-child(odd) {
+#Home .item:nth-child(odd) {
     justify-content: right;
 }
 
-.Home .item:nth-child(even) {
+#Home .item:nth-child(even) {
     justify-content: left;
 }
 
-.Home a, .Home .GitHub {
+#Home a, #Home .GitHub {
     height: 100px;
     width: 200px;
 }
 
 
-.Home .GitHub {
+#Home .GitHub {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -28,11 +28,11 @@
     transition: border-color cubic-bezier(.26,.15,.46,1) 0.35s;
 }
 
-.Home .GitHub:hover {
+#Home .GitHub:hover {
     border-color: white;
 }
 
-.Home .GitHub img {
+#Home .GitHub img {
     height: 50px;
     width: 50px;
 }

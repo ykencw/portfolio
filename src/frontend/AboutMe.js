@@ -2,7 +2,7 @@ import React from 'react';
 import TopBar from './TopBar';
 
 const AboutMe = () => {
-    return (<div>
+    return (<div id='AboutMe'>
         <TopBar backgroundName='backgroundaboutme' pageTitle='About Me' />
         <div className='Content'>
             <h1>About Me:</h1>

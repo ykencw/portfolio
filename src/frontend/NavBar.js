@@ -38,10 +38,10 @@ class NavBar extends React.Component {
 
     render() {
         return (<div className={`NavBar ${this.state.stickied ? 'sticky' : ''}`} onScroll={this.handleScroll}>
-            <NavLink route='/' iconName='homeicon' linkName='Home' />
-            <NavLink route='/Projects' iconName='projectsicon' linkName='Projects' />
-            <NavLink route='/AboutMe' iconName='aboutmeicon' linkName='About Me' />
-            <NavLink route='/Contact' iconName='contacticon' linkName='Contact' />
+            <NavLink to='Home' iconName='homeicon' linkName='Home' />
+            <NavLink to='Projects' iconName='projectsicon' linkName='Projects' />
+            <NavLink to='AboutMe' iconName='aboutmeicon' linkName='About Me' />
+            <NavLink to='Contact' iconName='contacticon' linkName='Contact' />
         </div>);
     }
 }

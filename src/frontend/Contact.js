@@ -7,7 +7,7 @@ class Contact extends React.Component {
     }
 
     render() {
-        return (<div>
+        return (<div id='Contact'>
             <TopBar backgroundName='backgroundcontact' pageTitle='Contact' />
             <div className='Content'>
                 <h1>Contact:</h1>

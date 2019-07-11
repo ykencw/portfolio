@@ -5,7 +5,7 @@ import './Home.css';
 
 class Home extends React.Component {
     render() {
-        return(<div className='Home'>
+        return(<div id='Home'>
             <TopBar backgroundName='backgroundhome' pageTitle='Home' />
             <div className='Content'>
                 <h1>Home:</h1>
