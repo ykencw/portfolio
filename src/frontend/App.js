@@ -3,7 +3,6 @@ import Home from './Home';
 import Projects from './Projects';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
-import NotFound from './NotFound';
 import NavBar from './NavBar';
 import SourceLink from './SourceLink';
 
@@ -18,7 +17,6 @@ class App extends React.Component {
             <Projects />
             <AboutMe />
             <Contact />
-            <NotFound />
           </div>
           <NavBar />
           <SourceLink />
