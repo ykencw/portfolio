@@ -14,8 +14,8 @@ class App extends React.Component {
         <div className='App'>
           <div className='NavigableContent'>
             <Home />
-            <Projects />
             <AboutMe />
+            <Projects />
             <Contact />
           </div>
           <NavBar />
