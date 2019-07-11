@@ -1,6 +1,4 @@
 import React from 'react';
-import { Route, Switch, Redirect } from 'react-router-dom';
-
 import Home from './Home';
 import Projects from './Projects';
 import AboutMe from './AboutMe';
@@ -16,14 +14,11 @@ class App extends React.Component {
     return (
         <div className='App'>
           <div className='NavigableContent'>
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route path='/Projects' component={Projects} />
-              <Route path='/AboutMe' component={AboutMe} />
-              <Route path='/Contact' component={Contact} />
-              <Route path='/not-found' component={NotFound} />
-              <Route path='/:path' render={() => <Redirect to='/not-found'/>} />
-            </Switch>
+            <Home />
+            <Projects />
+            <AboutMe />
+            <Contact />
+            <NotFound />
           </div>
           <NavBar />
           <SourceLink />

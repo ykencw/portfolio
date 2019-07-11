@@ -1,39 +1,9 @@
 import React from 'react';
-import { Redirect } from 'react-router-dom';
 import TopBar from './TopBar';
 
 import './Projects.css'
 
-class Projects extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            redirect: false
-        };
-    }
-
-    componentDidMount() {
-        window.scrollTo(0, 0);
-        window.addEventListener('scroll', this.handleScroll)
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll)
-    }
-
-    handleScroll = () => {
-        if ((window.pageYOffset - window.innerHeight) >= document.body.offsetHeight) {
-            this.setState({
-                redirect: true
-            });
-        }
-    }
-
-    render() {
-        if (this.state.redirect) {
-            return <Redirect to='/AboutMe' />;
-        }
-
+class Projects extends React.Component {render() {
         return (<div className='Projects'>
             <TopBar backgroundName='backgroundprojects' pageTitle='Projects' />
             <div className='Content'>
