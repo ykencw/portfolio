@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9028334d8dfc36e31701ac2c04ee47c7",
+    "revision": "c1af1a3f805849e16200c863f59c51bf",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "b67096ff8d317696a32a",
-    "url": "/portfolio/static/css/main.50758ad4.chunk.css"
+    "revision": "ef87d6a85675b08fb57a",
+    "url": "/portfolio/static/css/main.507a3e9e.chunk.css"
   },
   {
-    "revision": "9634a2804d5597ac62b3",
-    "url": "/portfolio/static/js/2.548e0644.chunk.js"
+    "revision": "bbf7f360499be5fc0af6",
+    "url": "/portfolio/static/js/2.1de47be2.chunk.js"
   },
   {
-    "revision": "b67096ff8d317696a32a",
-    "url": "/portfolio/static/js/main.69b87758.chunk.js"
+    "revision": "ef87d6a85675b08fb57a",
+    "url": "/portfolio/static/js/main.00460869.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -36,12 +36,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/backgroundhome.ca9ac795.jpg"
   },
   {
-    "revision": "7459bc3a5ef1b39caec00aca977bf46e",
-    "url": "/portfolio/static/media/backgroundprojects.7459bc3a.jpg"
+    "revision": "f3aefe0113e714f3e9dfcd5a41f9060a",
+    "url": "/portfolio/static/media/backgroundprojects.f3aefe01.jpg"
   },
   {
     "revision": "a613092cb3bae8e55259f551163c2668",
     "url": "/portfolio/static/media/contacticon.a613092c.svg"
+  },
+  {
+    "revision": "0c37f5561ba18ac46afc24a531f4dda1",
+    "url": "/portfolio/static/media/emailicon.0c37f556.svg"
+  },
+  {
+    "revision": "aa1a81ab0fce05497a2325c140a09a8a",
+    "url": "/portfolio/static/media/githubicon.aa1a81ab.svg"
   },
   {
     "revision": "56c671396aeba203c5764012997b6c72",
@@ -50,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "2484a0f488f8be19974deea5e05373e1",
     "url": "/portfolio/static/media/kodflixpreview.2484a0f4.jpg"
+  },
+  {
+    "revision": "93cbdbdd0c4da99deae574857f0ed097",
+    "url": "/portfolio/static/media/linkedinicon.93cbdbdd.svg"
   },
   {
     "revision": "f4747b897694d7276a578bd648323bd5",
