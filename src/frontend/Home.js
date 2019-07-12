@@ -33,34 +33,6 @@ class Home extends React.Component {
                     <br/>
                     <br/>
                     content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    <br/>
-                    <br/>
-                    a lot more content<br/>
-                    <br/>
-                    <br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
-                    content content content<br/>
                     <br />
                     <br />
                     <br />
